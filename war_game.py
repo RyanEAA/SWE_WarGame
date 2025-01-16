@@ -176,6 +176,7 @@ class War_Game:
                 player.shuffle_discard()
 
     def play_game(self):
+        print("just a print statement for ChangeTwo branch")
         check_win = self.game_won()
         counter = 0
         while(check_win == -1):
