@@ -270,7 +270,7 @@ def main():
     print("First we must do testing!")
     # my_game.deal_cards()
     # print(my_game)
-    for i in range(10):
+    for i in range(20):
         my_game.initialize_game()
         my_game.play_game()
     print("\n\n\n%s" % my_game)
