@@ -262,7 +262,7 @@ class War_Player:
 
 
 def main():
-
+    print("just a change for ChangeOne branch")
     my_game = War_Game(4)
     print("Time to play the game!")
     print("First we must do testing!")
@@ -272,6 +272,7 @@ def main():
         my_game.initialize_game()
         my_game.play_game()
     print("\n\n\n%s" % my_game)
+    
 
 
 
