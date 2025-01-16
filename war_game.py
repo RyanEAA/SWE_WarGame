@@ -264,13 +264,13 @@ class War_Player:
 
 def main():
     print("just a change for ChangeOne branch")
-    print("this is a change for ChangeThree branch")
+    print("This is a change I am doing for ChangeFour branch")
     my_game = War_Game(4)
     print("Time to play the game!")
     print("First we must do testing!")
     # my_game.deal_cards()
     # print(my_game)
-    for i in range(10):
+    for i in range(100):
         my_game.initialize_game()
         my_game.play_game()
     print("\n\n\n%s" % my_game)
